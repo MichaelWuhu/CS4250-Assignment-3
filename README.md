@@ -1,4 +1,4 @@
-CS 4250 Assignment 3 - Python Program
+CS 4250 Assignment 3
 
 Files:
 - inverted_index.py: Maintains the documents and inverted_index MongoDB collections.
@@ -9,8 +9,11 @@ Requirements:
 - pymongo package
 
 Install the dependency:
-    pip install pymongo
+    ``pip3 install pymongo``
+
+Run MongoDB
+    ``brew services start mongodb-community``
 
 Run the program:
-    python inverted_index.py
+    ``python3 inverted_index.py``
 
